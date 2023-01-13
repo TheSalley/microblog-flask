@@ -1,0 +1,11 @@
+# -*- coding:utf-8 -*-
+# @Author: TheShire
+# @Time: 2023/1/13
+# @File: __init__.py
+from flask import Flask
+from config import Config
+
+app = Flask(__name__)
+app.config.from_object(Config)
+
+from app import routes
