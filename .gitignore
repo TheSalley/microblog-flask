@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 venv
 .idea
 __pycache__
 *.pyc
 app/__pycache__
-=======
-/venv/
-/.idea/
-__pycache__
->>>>>>> 900fb88a703aa98d2540d28abc965668335a0b8a
