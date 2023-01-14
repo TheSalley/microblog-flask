@@ -3,7 +3,11 @@
 # @Time: 2023/1/14
 # @File: models.py
 
+<<<<<<< HEAD
 from app import db
+=======
+from app import d
+>>>>>>> 900fb88a703aa98d2540d28abc965668335a0b8a
 
 
 class User(db.Model):
