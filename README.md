@@ -55,3 +55,10 @@ pip install flask-wtf
 ```
 
 + `flash` 闪现消息
+
+## 5、数据库
+
+```shell
+pip install flask-sqlalchemy
+pip install flask-migrate
+```
