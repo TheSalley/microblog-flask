@@ -9,7 +9,7 @@
 虚拟环境
 
 ```shell
-python -m venv cenv
+python -m venv venv
 venv\Scripts\activate
 ```
 
@@ -61,4 +61,8 @@ pip install flask-wtf
 ```shell
 pip install flask-sqlalchemy
 pip install flask-migrate
+# 创建迁移存储库
+flask db init
+flask db migrate -m ''
+flask db upgrade
 ```
